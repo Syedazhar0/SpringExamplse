@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="Car" class="com.tcs.spring.Car">  
+      
+    </bean>
+    
+    <bean id="Bus" class="com.tcs.spring.Bus">  
+      
+    </bean>
+    
+    <bean id="Traveller" class="com.tcs.spring.Traveller">  
+      
+    </bean>
+
+</beans>
+<!-- go to spring.io website select projects select springframework 5.2.25 select core  copy 1.2.1 path and past here -->
+<!-- to get the above code goto spring.io website select projects select framework select learn select any stable version
+like 5.2.25 or any other then go to 1.2.1 select schema past here and add the two importent dependencies spring core
+ and contextto add goto mvn repository search spring core and context stable version like 5.2.9 make sure that both are having 
+same versions Note:if the aboe code any error then goto window select preferences goto maven enable download artifacts 
+to create the jar file add maven shade plugins into pom.xml below the parent dependency closing tag-->

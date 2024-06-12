@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.tcs.springex.Greeting"/>
+    <fullyQualifiedTypeName name="java.security.PublicKey"/>
+    <fullyQualifiedTypeName name="com.tcs.springex.GreetingImpl"/>
+    <fullyQualifiedTypeName name="com.tcs.spring.greeting.Greeting"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="com.tcs.spring.greetingimpl.GreetingImpl"/>
+    <fullyQualifiedTypeName name="com.tcs.spring.GreetingImpl"/>
+    <fullyQualifiedTypeName name="javax.swing.Spring"/>
+    <fullyQualifiedTypeName name="com.tcs.spring.SpringEx.Greeting"/>
+    <fullyQualifiedTypeName name="com.tcs.spring.SpringEx.GreetingImpl"/>
+    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.lang.Module"/>
+    <fullyQualifiedTypeName name="java.util.jar.Attributes.Name"/>
+    <fullyQualifiedTypeName name="java.io.DataOutput"/>
+    <fullyQualifiedTypeName name="com.tcs.spring.Vehical"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.tcs.spring.SpringExample2.Greeting"/>
+    <fullyQualifiedTypeName name="com.tcs.spring.SpringExample2.JavaConfig"/>
+    <fullyQualifiedTypeName name="com.tcs.spring.SpringExample2.GreetingImpl"/>
+    <fullyQualifiedTypeName name="com.tcs.spring.Person.Person"/>
+    <fullyQualifiedTypeName name="com.tcs.spring.Person.JavaConfig"/>
+    <fullyQualifiedTypeName name="com.tcs.spring.EmailServiceMessageService.Email"/>
+    <fullyQualifiedTypeName name="com.tcs.spring.EmailServiceMessageService.Message"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+    <fullyQualifiedTypeName name="com.tcs.spring.EmailServiceMessageService.JavaConfig"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="com.tcs.spring.EmailServiceMessageService.MessageService"/>
+    <fullyQualifiedTypeName name="com.tcs.spring.EmailServiceMessageService.EmailService"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="com.tcs.spring.EmailServiceMessageService.Student"/>
+    <fullyQualifiedTypeName name="javax.swing.tree.AbstractLayoutCache"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+    <fullyQualifiedTypeName name="com.tcs.spring.Student2AnnotationConfig.Email"/>
+</qualifiedTypeNameHistroy>

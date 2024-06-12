@@ -1,0 +1,23 @@
+package com.tcs.spring;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.AbstractApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class App {
+    public static void main(String[] args) {
+     // load the spring config file
+        ApplicationContext context = new 
+        		ClassPathXmlApplicationContext("com/tcs/spring/spring.xml");
+
+       
+        Car car = context.getBean("car", Car.class);
+        Bus bus = context.getBean("bus", Bus.class);
+        Traveller traveller = (Traveller) context.getBean("traveller", Traveller.class);
+
+        
+        System.out.println("Details of Traveller with Car:");
+        traveller.travellerDetails();
+
+    }
+}

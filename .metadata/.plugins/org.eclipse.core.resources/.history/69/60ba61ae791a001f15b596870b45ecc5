@@ -1,0 +1,5 @@
+package com.tcs.spring.EmailServiceMessageService;
+
+public class MessageService {
+
+}

@@ -1,0 +1,5 @@
+package com.tcs.spring;
+
+public interface Vehical {
+public void move();
+}

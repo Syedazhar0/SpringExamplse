@@ -1,0 +1,36 @@
+package com.tcs.spring;
+
+public class Car implements Vehicle {
+
+	private String CarType;
+	private int speed;
+	
+
+	public String getBusType() {
+		return CarType;
+	}
+
+
+	public void setBusType(String busType) {
+		CarType = busType;
+	}
+
+
+	public int getSpeed() {
+		return speed;
+	}
+
+
+	public void setSpeed(int speed) {
+		this.speed = speed;
+	}
+
+
+	public void move() {
+		System.out.println("hello welcome to yoyo travelers you have choosen Car vehicle");
+		System.out.println("Car type "+CarType);
+		System.out.println("Car speed "+speed);
+		
+	}
+
+}

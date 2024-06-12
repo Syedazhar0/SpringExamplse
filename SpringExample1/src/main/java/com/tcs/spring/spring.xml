@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Define bean for Car -->
+    <bean id="car" class="com.tcs.spring.Car">
+        <property name="CarType" value="SUV"/>
+        <property name="speed" value="120"/>
+    </bean>
+    
+    <!-- Define bean for Bus -->
+    <bean id="bus" class="com.tcs.spring.Bus">
+        <property name="BusType" value="Double Decker"/>
+        <property name="speed" value="80"/>
+    </bean>
+    
+    <!-- Define bean for Traveller -->
+    <bean id="traveller" class="com.tcs.spring.Traveller">
+        <property name="name" value="Azhar"/>
+        <property name="mobile" value="879041652"/>
+        <property name="age" value="20"/>
+        <!-- Set the vehicle for the traveller -->
+        <property name="vehicle" ref="bus"/>
+    </bean>
+</beans>
+
+
+<!-- go to spring.io website select projects select springframework 5.2.25 select core  copy 1.2.1 path and past here -->
+<!-- to get the above code goto spring.io website select projects select framework select learn select any stable version
+like 5.2.25 or any other then go to 1.2.1 select schema past here and add the two importent dependencies spring core
+ and contextto add goto mvn repository search spring core and context stable version like 5.2.9 make sure that both are having 
+same versions Note:if the aboe code any error then goto window select preferences goto maven enable download artifacts 
+to create the jar file add maven shade plugins into pom.xml below the parent dependency closing tag-->

@@ -1,0 +1,14 @@
+package com.tcs.spring.EmailServiceMessageService;
+
+public class Student {
+private String Name;
+private int age;
+MessageService  messageService;
+EmailService emailService;
+
+public void details() {
+	System.out.println("Student Details and services");
+	emailService.email();
+	messageService.message();
+}
+}

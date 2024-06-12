@@ -1,0 +1,57 @@
+package com.tcs.spring;
+
+public class Traveller  {
+private String Name;
+private int mobile;
+private int age ;
+// Vehicle is required to call the move  method
+Vehicle vehical;
+
+public Traveller(String name, int mobile, int age, Vehicle vehical) {
+	super();
+	Name = name;
+	this.mobile = mobile;
+	this.age = age;
+	this.vehical = vehical;
+}
+
+public String getName() {
+	return Name;
+}
+
+public void setName(String name) {
+	Name = name;
+}
+
+public int getMobile() {
+	return mobile;
+}
+
+public void setMobile(int mobile) {
+	this.mobile = mobile;
+}
+
+public int getAge() {
+	return age;
+}
+
+public void setAge(int age) {
+	this.age = age;
+}
+
+public Vehical getVehical() {
+	return vehical;
+}
+
+public void setVehical(Vehical vehical) {
+	this.vehical = vehical;
+}
+
+public  void travellerDetails() {
+	System.out.println("Name :"+Name);
+	System.out.println("Mobile :"+mobile);
+	System.out.println("Age :"+age);
+	vehical.move();
+		
+}
+}

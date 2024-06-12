@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\SpringExamples_2\SpringExample2\src\main\java\com\tcs\spring\SpringExample2\JavaConfig.java"/>
+			<item value="D:\SpringExamples_2\SpringExample1\src\main\java\com\tcs\spring\App.java"/>
+			<item value="D:\SpringExamples_2\SpringEx"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.tcs.spring.Student2AnnotationConfig"/>
+			<item value="com.tcs.spring.EmailServiceMessageService"/>
+			<item value="com.tcs.spring.Person"/>
+			<item value="com.tcs.spring.SpringExample2"/>
+			<item value="com.tcs.spring"/>
+			<item value="com.tcs.spring.SpringEx"/>
+			<item value="com.tcs.spring.SpringExample"/>
+			<item value="com.tcs.springex"/>
+		</list>
+		<list key="groupId">
+			<item value="com.tcs.spring"/>
+		</list>
+		<list key="artifactId">
+			<item value="Student2AnnotationConfig"/>
+			<item value="EmailServiceMessageService"/>
+			<item value="Person"/>
+			<item value="SpringExample2"/>
+			<item value="SpringExample1"/>
+			<item value="SpringEx"/>
+			<item value="SpringExample"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>
